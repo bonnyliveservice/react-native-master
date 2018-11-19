@@ -18,7 +18,7 @@ export default class App extends React.Component {
           flexDirection: 'row',
           flex: 1
         }}>
-        <WebView source={{uri: 'https://staging.bonnylive.biz/'}} style={styles.container} />
+        <WebView source={{uri: 'https://www.bonny-badminton.tw/'}} style={styles.container} />
         <View
           style={{
             position: 'absolute', left: 0, right: 0, bottom: 50, justifyContent: 'flex-end', alignItems: 'center'
