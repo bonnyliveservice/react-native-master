@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, WebView, View, Text, Button, Share } from 'react-native'
+import { StyleSheet, WebView, View, Button, Share } from 'react-native'
 
 export default class App extends React.Component {
   testShare () {
