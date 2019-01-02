@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "bonny-live-staging",
+    "name": "bonny-live",
     "description": "This project is really great.",
-    "slug": "bonny-live-staging",
+    "slug": "bonny-live",
     "privacy": "public",
     "sdkVersion": "30.0.0",
     "platforms": [
@@ -24,7 +24,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bonnylive.bonnylive"
+    },
+    "android": {
+      "package": "com.bonnylive.bonnylive"
     }
   }
 }
